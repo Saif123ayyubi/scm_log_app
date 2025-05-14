@@ -52,6 +52,7 @@ public class HomeController {
 	
 	@RequestMapping("/about")
 	public String about(Model model) {
+		System.out.println("hi");
 		model.addAttribute("title", "About - Smart Contact Manager");
 		return "about";
 	}
